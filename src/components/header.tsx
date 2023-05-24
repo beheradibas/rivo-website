@@ -10,7 +10,7 @@ export default function Header() {
   };
   return (
     <>
-<nav className='flex items-center flex-wrap  bg-secondary p-2 '>
+<nav className='flex items-center flex-wrap  bg-secondary p-3 '>
           <Link href='/' className='inline-flex items-center p-2 mr-4 '>
             <Image src="/logo.png" width={50} height={50} alt="dominik development logo"/>
             <span className='text-xl text-white font-bold tracking-wide select-none'>
