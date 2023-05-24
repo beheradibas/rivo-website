@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -18,7 +19,7 @@ export default function Footer() {
 
                     <span className="mx-1">LinkedIn</span>
                 </a>
-              <a href="mailto:dominik@wouldyoubot.com" target="_blank" className="w-full px-5 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-primary rounded-md sm:mx-2 sm:order-2 sm:w-auto ">
+              <a href="mailto:dominik@wouldyoubot.com?subject=Contact" target="_blank" className="w-full px-5 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-primary rounded-md sm:mx-2 sm:order-2 sm:w-auto ">
                 Contact Us
               </a>
             </div>
@@ -32,23 +33,23 @@ export default function Footer() {
             </p>
 
             <div className="flex mt-3 -mx-2 sm:mt-0">
-              <a
+              <Link
                 href="/imprint"
                 className="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
                 aria-label="Reddit"
               >
                 {" "}
                 Imprint{" "}
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="/privacy"
                 className="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
                 aria-label="Reddit"
               >
                 {" "}
                 Privacy{" "}
-              </a>
+              </Link>
 
               <a
                 href="#"
