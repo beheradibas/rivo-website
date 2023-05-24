@@ -7,7 +7,7 @@ export default function Error() {
         <title>404</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <main className="w-screen h-screen flex items-center justify-center bg-background">
+      <main className="w-screen h-screen flex items-center justify-center bg-secondary">
         <div className="text-center">
           <p className="text-base font-bold text-primary">404</p>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-5xl">

@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer base {
+  ::-webkit-scrollbar{
+  @apply w-0 
+  }
+
+}
