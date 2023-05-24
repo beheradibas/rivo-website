@@ -1,6 +1,7 @@
 import Link from "next/link";
+import dynamic from "next/dynamic";
 
-export default function Error() {
+const Error = () => {
   return (
     <>
       <head>
@@ -28,3 +29,4 @@ export default function Error() {
     </>
   );
 }
+export default dynamic (() => Promise.resolve(Error), {ssr: false})

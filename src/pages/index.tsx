@@ -1,7 +1,8 @@
 import Footer from '../components/footer'
 import Header from '../components/header'
+import dynamic from "next/dynamic";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <head>
@@ -20,3 +21,4 @@ export default function Home() {
 
   )
 }
+export default dynamic (() => Promise.resolve(Home), {ssr: false})
