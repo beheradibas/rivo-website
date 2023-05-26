@@ -15,7 +15,7 @@ export default function Footer() {
             </span>
           </Link>
             <p className="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400">
-              Helping clients to stay ahead of technologie since <b>2023</b>
+              Helping clients to stay ahead of technology since <b>2023</b>
             </p>
 
             <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
