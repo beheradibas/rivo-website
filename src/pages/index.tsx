@@ -13,8 +13,9 @@ const Home = () => {
       </head>
       <Header />
      <main className='main z-10 bg-secondary'>
-     <div className='content z-12'>
-     <div aria-hidden className='line' />
+     <div className='content'>
+    <h1 className="color-white z-50 align-center center">Hello</h1>
+     hello
     </div>
         </main>    
       <Footer />
