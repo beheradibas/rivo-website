@@ -1,5 +1,6 @@
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Footer from '@/components/footer'
+import Header from '@/components/header'
+import Hero  from '@/components/hero';
 import dynamic from "next/dynamic";
 
 const Home = () => {
@@ -11,14 +12,11 @@ const Home = () => {
         <link rel="icon" href="https://merakiui.com/images/favicon.ico" />
         <link rel="stylesheet" href="https://merakiui.com/css/main.css" />
       </head>
+
       <Header />
-     <main className='main z-10 bg-secondary'>
-     <div className='content'>
-    <h1 className="color-white z-50 align-center center">Hello</h1>
-     hello
-    </div>
-        </main>    
+      <Hero />          
       <Footer />
+
     </>
 
   )
