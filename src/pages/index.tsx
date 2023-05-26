@@ -12,9 +12,10 @@ const Home = () => {
         <link rel="stylesheet" href="https://merakiui.com/css/main.css" />
       </head>
       <Header />
-     <main className='bg-primary'>
-    <br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+     <main className='main z-10 bg-secondary'>
+     <div className='content z-12'>
+     <div aria-hidden className='line' />
+    </div>
         </main>    
       <Footer />
     </>
