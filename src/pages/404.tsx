@@ -10,7 +10,7 @@ const Error = () => {
       </head>
       <main className="w-screen h-screen flex items-center justify-center bg-secondary">
         <div className="text-center">
-          <p className="text-base font-bold text-primary">404</p>
+          <p className="text-base font-bold text-[#3fd378]">404</p>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-5xl">
             Page not found
           </h1>
@@ -19,7 +19,7 @@ const Error = () => {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             
-              <Link href="/" className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              <Link href="/" className="rounded-md bg-[#3fd378] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Go back home
               </Link>
             

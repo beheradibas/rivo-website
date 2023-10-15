@@ -1,24 +1,20 @@
-import Footer from '@/components/footer'
-import Header from '@/components/header'
-import Hero  from '@/components/hero';
-import dynamic from "next/dynamic";
-
-const Home = () => {
+export default function Home() {
   return (
-    <>
-      <head>
-        <title>Dominik Development </title>
+   <>
+   <head>
+        <title>Rivo - Riding on Innovation</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="https://merakiui.com/images/favicon.ico" />
-        <link rel="stylesheet" href="https://merakiui.com/css/main.css" />
       </head>
-
-      <Header />
-      <Hero />          
-      <Footer />
-
-    </>
-
+   <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+        <h1 className="text-9xl font-bold text-[#3fd378]">
+        Rivo.gg
+        </h1>
+        <p className="mt-6 text-2xl">
+        Where Innovation Takes the Lead!
+        </p>
+        
+      </div>
+    </main> </> 
   )
 }
-export default dynamic (() => Promise.resolve(Home), {ssr: false})
